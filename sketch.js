@@ -52,7 +52,7 @@ async function getBackgroundImg(){
     
 
     // slice the datetime to extract hour
-    var hour = datetime.slice(11,13)
+    hour = datetime.slice(11,13)
 
     
     if(hour>=0000 && hour<1800 ){
